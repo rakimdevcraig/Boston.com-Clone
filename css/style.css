@@ -1,0 +1,299 @@
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+header{
+  height: 200px;
+  width: 100%;
+}
+
+nav{
+  height: 60px;
+  width: 100%;
+  background-color: black;
+}
+
+footer{
+  height: 200px;
+  width: 100%;
+  clear: both;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.wrapper{
+  height: 900px;
+  width: 100%;
+}
+
+.tophalf{
+  width: 100%;
+}
+.topstories{
+  width: 70%;
+  float: left;
+}
+
+.belichick{
+  height: 700px;
+  width: 70%;
+  float: left;
+}
+.list{
+  height: 700px;
+  width: 40%;
+  float: left;
+}
+
+.newyork{
+  width: 60%;
+
+  float: left;
+}
+.praise{
+  width: 50%;
+  height: 300px;
+  float: left;
+}
+.sidebar{
+  height: 700px;
+  width: 30%;
+  float: left;
+}
+
+.secondpage{
+  height: 300px;
+  width: 100%;
+  float: left;
+
+}
+.ford{
+  height: 300px;
+  width: 40%;
+  float: left;
+}
+.carlist{
+  width: 30%;
+  float: left;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.top{
+  font-weight: bold;
+  font-size: 30px;
+  border-bottom: 3px solid red;
+}
+nav ul li{
+  display: inline;
+}
+nav ul{
+  margin-left:10px;
+}
+nav span{
+  color: white;
+}
+
+.bostlogo{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dot{
+  height: 10px;
+}
+.newstag{
+  margin-left: 280px;
+  width: 100%;
+}
+
+.margleft{
+  margin-left: 50px;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+}
+
+.coachpic{
+  width: 100%;
+  height: 300px;
+}
+
+.newyork p{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.maine{
+  width: 90%;
+  height: 200px;
+  float: left;
+}
+
+.praise p{
+  font-weight: bold;
+}
+
+.list ul{
+  list-style: none;
+}
+.list p{
+  font-size: 17px;
+}
+
+.list a{
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.drafters{
+  display: block;
+  margin: 0 auto;
+}
+
+.sidebar h1{
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 2px solid red;
+  margin-left: 25px;
+}
+.sidebar li p{
+  font-size: 22px;
+}
+
+.pickuptruck{
+  height: 200px;
+  width: 100%;
+}
+
+.ford p{
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 0
+}
+
+.carlist a{
+  color: black;
+}
+.faicons li{
+  list-style: none;
+  display: inline;
+  color: red;
+  font-size: 30px;
+  margin: 10px;
+}
+
+ .faicons .globe{
+  color: black;
+  font-size: 15px;
+  margin-left: 700px;
+}
+
+.terms li{
+  display: inline;
+  list-style: none;
+}
+
+.terms .privacy{
+  margin-left: 840px;
+}
+
+
+/******************************************************
+tablet media query
+******************************************************/
+@media (min-width: 769px) and (max-width:992px){
+
+header{
+  background-color: grey;
+}
+
+.topstories{
+  width: 100%;
+}
+.hide{
+  display: none;
+}
+.newstag{
+  margin-left: 20px;
+}
+
+.faicons .globe{
+  margin-left: 460px;
+}
+
+.terms .privacy{
+  margin-left: 610px;
+}
+
+
+
+
+
+
+}
+
+/******************************************************
+phone media query
+******************************************************/
+
+@media only screen and (max-width:768px){
+
+  header{
+    background-color: pink;
+  }
+
+.newstag{
+  margin-left: 10px;
+}
+
+.hide{
+  display: none;
+}
+
+.hidemobile{
+  display: none;
+}
+.topstories{
+  width: 100%;
+}
+
+.newyork{
+  width: 100%;
+}
+
+.list{
+  width: 100%;
+}
+
+.ford{
+  width: 100%;
+}
+
+.carlist{
+  display: none;
+}
+
+.terms .privacy{
+  margin-left: 0;
+}
+
+.faicons .globe{
+  margin-left: 230px;
+}
+
+.privacy{
+  margin-left: 240px;
+}
+
+
+
+}
